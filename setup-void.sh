@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Void Linux niri + noctalia setup
-# Run as your normal user (not root); sudo is used where needed.
 set -e
 
 if [ "$EUID" -eq 0 ]; then
@@ -8,7 +6,7 @@ if [ "$EUID" -eq 0 ]; then
     exit 1
 fi
 
-RAW="https://raw.githubusercontent.com/Rosiiiie/dotfiles/refs/heads/main"
+RAW="https://raw.githubusercontent.com/clowngrl/dotfiles/refs/heads/main"
 
 # --- Directories ---
 mkdir -p ~/.config/fastfetch
