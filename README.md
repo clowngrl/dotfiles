@@ -8,7 +8,7 @@ sudo xbps-install -Syuv curl
 
 then curl setup-void.sh to a directory
 
-curl -o ~/setup-void.sh https://raw.githubusercontent.com/Rosiiiie/dotfiles/refs/heads/main/setup-void.sh
+curl -o ~/setup-void.sh https://raw.githubusercontent.com/clowngrl/dotfiles/refs/heads/main/setup-void.sh
 
 then run it via bash
 
